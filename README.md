@@ -6,7 +6,9 @@ This project contains an SQL schema and ER diagram for a basic Library Managemen
 📁 Project Structure
 
 a. schema.sql – SQL script to create database schema with relationships
+
 b. LIB.png – (Optional) Entity-Relationship Diagram for visual understanding
+
 c. README.md – Project overview and instructions
 
 🧰 Tools Used
