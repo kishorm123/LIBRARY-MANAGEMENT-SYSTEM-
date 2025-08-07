@@ -5,14 +5,15 @@ This project contains an SQL schema and ER diagram for a basic Library Managemen
 
 📁 Project Structure
 
-schema.sql – SQL script to create database schema with relationships
-LIB.png – (Optional) Entity-Relationship Diagram for visual understanding
-README.md – Project overview and instructions
+a. schema.sql – SQL script to create database schema with relationships
+b. LIB.png – (Optional) Entity-Relationship Diagram for visual understanding
+c. README.md – Project overview and instructions
 
 🧰 Tools Used
 
-MySQL Workbench
-GitHub
+1. MySQL Workbench
+2. GitHub
+
 📚 Schema Overview
 The schema includes the following tables:
 
@@ -23,9 +24,9 @@ Borrowings – Tracks which members borrowed which books
 
 🔗 Relationships
 
-One author can write many books (1:M)
-One member can borrow many books (M:M via Borrowings)
-Each borrowing record links one book and one member
+I. One author can write many books (1:M)
+II. One member can borrow many books (M:M via Borrowings)
+III. Each borrowing record links one book and one member
 
 🚀 Getting Started
 
