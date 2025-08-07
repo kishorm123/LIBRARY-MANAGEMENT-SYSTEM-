@@ -20,14 +20,19 @@ c. README.md – Project overview and instructions
 The schema includes the following tables:
 
 Authors – Stores author details
+
 Books – Stores book details, linked to Authors
+
 Members – Stores member details
+
 Borrowings – Tracks which members borrowed which books
 
 🔗 Relationships
 
 I. One author can write many books (1:M)
+
 II. One member can borrow many books (M:M via Borrowings)
+
 III. Each borrowing record links one book and one member
 
 🚀 Getting Started
@@ -35,6 +40,9 @@ III. Each borrowing record links one book and one member
 To use this project:
 
 Clone or download the repo
+
 Open schema.sql in MySQL Workbench or pgAdmin
+
 Run the script to create all tables
+
 (Optional) View LIB.png for visual representation
